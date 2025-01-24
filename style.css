@@ -1,0 +1,96 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  margin-inline: 5%;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+.nav-left {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #e9ecef;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.menu {
+  padding: 1rem 2rem 1rem 1rem;
+}
+
+.login {
+  padding-inline-start: 2rem;
+  flex-direction: row;
+}
+
+.block {
+  width: 40rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: ;
+}
+
+.flex--column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex--center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex--row{
+    display: flex;
+}
+
+.flex--center--column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.annonce {
+  width: 90%;
+  padding-inline-start: 10%;
+  height: 15rem;
+}
+
+.breaking-news{
+    padding-inline: 30%;
+    padding-block-start: 5rem;
+}
+.breaking-news > p{
+    
+}
+
+.gap2{
+    display: flex;
+    gap: 2rem;
+}
+
+.gap1{
+    display: flex;
+    gap: 1rem;
+}
