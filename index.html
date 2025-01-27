@@ -19,25 +19,29 @@
           <a href="*">LOG IND</a>
         </li>
       </ul>
-      <ul class="block flex--column">
+      <ul class="blog flex--column">
         <li>Nyhedsbrev</li>
         <li>Podcast</li>
         <li>Køb Abonnement</li>
       </ul>
     </header>
-    <main>
-      <img class="annonce flex--center--column" src="https://placehold.co/800x100" alt="placeholder" />
+    <main class="main-container">
+      <img
+        class="annonce "
+        src="https://placehold.co/800x200"
+        alt="placeholder"
+      />
       <section class="breaking-news">
-        <h2>
+        <p>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti
           consequatur iusto aspernatur sapiente corporis.
-        </h2>
+        </p>
         <p>
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum
           voluptates provident, quis architecto id sit, asperiores voluptatibus,
           ullam autem reiciendis dicta nostrum dolores sunt ea.
         </p>
-        <div class="flex--row gap2">
+        <div class="flex gap2">
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
             perspiciatis sunt quisquam quo dolore, harum quam molestias
@@ -47,21 +51,21 @@
           <img src="https://placehold.co/500x600" alt="placeholder" />
         </div>
       </section>
-      <section>
-        <div class="udland">
-          <h2>Udland</h2>
-          <img src="https://placehold.co/40x40" alt="placeholder" />
-          <p>Jakob Stein</p>
-          <div class="contact-details flex--row gap1">
+      <section class="half--section">
+        <div class="flex--align--center flex--wrap">
+          <h3 class="block">Udland</h3>
+          <img class="inline udland--img" src="https://placehold.co/10x10" alt="placeholder" />
+          <p class="inline">Jakob Stein</p>
+          <div class="contact-details flex gap1">
             <img src="https://placehold.co/5x5" alt="placeholder" />
             <p>Email</p>
           </div>
-          <div class="contact-details flex--row gap1">
+          <div class="contact-details flex gap1">
             <img src="https://placehold.co/5x5" alt="placeholder" />
             <p>Twitter</p>
           </div>
         </div>
-        <p class="bold">Peter Nygaard Christensen</p>
+        <p class="bold lidt-luft">Peter Nygaard Christensen</p>
         <img src="https://placehold.co/5x5" alt="placeholder" />
         <p>Email</p>
       </section>
@@ -84,17 +88,16 @@
           <img src="https://placehold.co/80x55" alt="placeholder" />
           <img src="https://placehold.co/80x55" alt="placeholder" />
         </div>
-        <div class="subscriptions">
-          <h3>Vores abonnenter kalder os kritisk, seriøs og troværdig.</h3>
-          <br />
-          <button>KLIK HER</button>
+        <div class="subscriptions flex--center--column">
+          <h2 class="flex--center--column">Vores abonnenter kalder os kritisk, seriøs og troværdig.</h2>
+          <button class="subscription">KLIK HER</button>
           <p>Allerede abonnent? <a href="#">Log ind her</a></p>
         </div>
       </section>
-      <section class="read">
-        <p>
+      <section class="read flex">
+        <p class="flex height--100">
           Fik du læst?
-          <img src="https://placehold.co/15x15" alt="kommpas-icon" />
+          <img class="wide" src="https://placehold.co/15x15" alt="kommpas-icon" />
         </p>
         <div class="read--navigate">
           <img src="https://placehold.co/20x20" alt="placeholder" />
@@ -132,7 +135,7 @@
         </div>
         <!-- read--content-container end -->
         <section class="seneste">
-          <h2>Seneste nyt</h2>
+          <h3>Seneste nyt</h3>
           <section class="nyt">
             <p class="small">16:36</p>
             <p class="nyt--headline">
@@ -170,7 +173,7 @@
             </p>
           </section>
           <p>flere nyheder</p>
-          <h2>Information.dk</h2>
+          <h3>Information.dk</h3>
           <div class="information">
             <img src="https://placehold.co/10x10" alt="" />
             <p>Forsiden lige nu</p>
@@ -250,7 +253,7 @@
       </p>
     </main>
     <footer>
-      <div class="column">
+      <div class="flex--column">
         <h3>Information som E-avis</h3>
         <p>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore iusto
